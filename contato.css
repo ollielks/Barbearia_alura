@@ -1,0 +1,62 @@
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+    
+}
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0;
+}
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+}
+main {
+    width: 940px;
+    margin: 40px auto;
+}
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    width: 50%;
+}
